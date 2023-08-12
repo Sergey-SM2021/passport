@@ -5,8 +5,8 @@ import { UsersService } from 'src/users/users.service';
 export class AuthService {
   constructor(private usersService: UsersService) {}
 
-  validateUser(login: string, password: string) {
-    const user = this.usersService.getUser(login);
+  validateUser(username: string, password: string) {
+    const user = this.usersService.getUser(username);
     if (user && user.password === password) {
       return user;
     }
