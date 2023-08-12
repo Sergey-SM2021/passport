@@ -4,13 +4,13 @@ import { Injectable } from '@nestjs/common';
 export class UsersService {
   private readonly users = [
     {
-      login: 'sergey2003.k.96@gmail.com',
-      password: 'sergey2003',
+      login: 'Sergei2003.k.96@gmail.com',
+      password: 'Sergey@2003',
       userId: 1,
     },
     {
       login: 'gotobis457@vreaa.com',
-      password: 'sergey2003',
+      password: 'Sergey@2003',
       userId: 1,
     },
   ];
